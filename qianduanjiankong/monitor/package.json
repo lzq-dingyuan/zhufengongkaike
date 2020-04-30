@@ -1,0 +1,17 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c --watch"
+  },
+  "dependencies": {
+    "rollup": "^2.7.5",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  }
+}
